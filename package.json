@@ -1,0 +1,26 @@
+{
+  "name": "ha-weather-translate",
+  "version": "1.0.0",
+  "description": "Home Assistant Lovelace plugin to automatically translate weather-forecast cards to French",
+  "main": "weather-translate.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blackbol/ha-weather-translate.git"
+  },
+  "keywords": [
+    "home-assistant",
+    "homeassistant",
+    "hacs",
+    "lovelace",
+    "weather",
+    "forecast",
+    "translation",
+    "french"
+  ],
+  "author": "Blackbol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Blackbol/ha-weather-translate/issues"
+  },
+  "homepage": "https://github.com/Blackbol/ha-weather-translate#readme"
+}
