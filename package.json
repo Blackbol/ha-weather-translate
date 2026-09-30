@@ -1,6 +1,6 @@
 {
   "name": "ha-weather-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Home Assistant Lovelace plugin to automatically translate weather-forecast cards to French",
   "main": "weather-translate.js",
   "repository": {

@@ -32,26 +32,27 @@
     'hourly': 'Horaire'
   };
 
+  // Official Home Assistant Core French translations for weather states
   const STATE_MAP = {
     'clear-night': 'Nuit claire',
     'clear, night': 'Nuit claire',
     'sunny': 'Ensoleillé',
-    'partly cloudy': 'Partiellement nuageux',
-    'partlycloudy': 'Partiellement nuageux',
+    'partlycloudy': 'Éclaircies',
+    'partly cloudy': 'Éclaircies',
     'cloudy': 'Nuageux',
     'overcast': 'Couvert',
     'rainy': 'Pluvieux',
-    'pouring': 'Fortes pluies',
-    'lightning': 'Orageux',
-    'lightning-rainy': 'Orageux et pluvieux',
-    'thunderstorm': 'Orageux',
+    'pouring': 'Pluie forte',
+    'lightning': 'Orages',
+    'lightning-rainy': 'Pluie orageuse',
+    'thunderstorm': 'Orages',
     'fog': 'Brouillard',
     'mist': 'Brume',
     'haze': 'Brume sèche',
     'windy': 'Venteux',
-    'windy-variant': 'Venteux',
-    'snowy': 'Neigeux',
-    'snowy-rainy': 'Pluie et neige mêlées',
+    'windy-variant': 'Venteux variable',
+    'snowy': 'Neige',
+    'snowy-rainy': 'Pluie verglaçante',
     'hail': 'Grêle',
     'exceptional': 'Exceptionnel'
   };
@@ -171,7 +172,7 @@
   });
 
   console.info(
-    '%c HA-WEATHER-TRANSLATE %c v1.0.0 Loaded ',
+    '%c HA-WEATHER-TRANSLATE %c v1.0.1 Loaded ',
     'color: white; background: #0288D1; font-weight: 700; border-radius: 3px 0 0 3px;',
     'color: #0288D1; background: #E1F5FE; font-weight: 700; border-radius: 0 3px 3px 0;'
   );
